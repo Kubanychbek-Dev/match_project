@@ -1,6 +1,4 @@
 import re
-from email.quoprimime import body_length
-
 
 def get_reg_data():
     match_name = re.compile(r"^[a-zA-Zа-яА-Я]+$")
