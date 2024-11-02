@@ -13,7 +13,6 @@ while len(users_list) < 3:
         if result:
             print("Имя принято")
             print()
-            user_data_list.append(result)
             ask_name_i += 1
         else:
             print("Содержит неподходящие символы")
@@ -28,7 +27,6 @@ while len(users_list) < 3:
         if result:
             print("Фамиля принята")
             print()
-            user_data_list.append(ask_surname)
             ask_surname_i += 1
         else:
             print("Содержит неподходящие символы")
@@ -42,7 +40,6 @@ while len(users_list) < 3:
         if result:
             print("Телефон принят")
             print()
-            user_data_list.append(result)
             ask_phone_i += 1
         else:
             print("Не соответствует формату +***(**)*******")
@@ -56,7 +53,6 @@ while len(users_list) < 3:
         if result:
             print("Почта принята")
             print()
-            user_data_list.append(result)
             ask_email_i += 1
         else:
             print("Почта должна содержать только латинские буквы или цифру затем @yandex.ru")
