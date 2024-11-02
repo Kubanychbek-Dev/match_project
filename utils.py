@@ -16,7 +16,8 @@ def reg_check(user_data, users_list):
     for i in regex:
         if bool(i.fullmatch(user_data)) is True:
             if user_data not in users_list:
-                return user_data
+                users_list.append(user_data)
+                return True
 
 
 def check_unique_data(user_data, data_to_check):
